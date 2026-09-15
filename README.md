@@ -296,4 +296,4 @@ tool applies the EXIF orientation, but some devices write unusual combinations.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE.txt).
