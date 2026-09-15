@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Working folders
+source/
+target/
+demo/
+
+# Photos
+*.heic
+*.HEIC
+*.heif
+*.HEIF
+*.jpg
+*.jpeg
+
+# Local-only sample photos, but keep the folder and its instructions
+tests/samples/*
+!tests/samples/README.md
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
