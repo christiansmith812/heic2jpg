@@ -15,6 +15,7 @@ import queue
 import threading
 import tkinter as tk
 from datetime import datetime
+import multiprocessing
 from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
 
@@ -385,5 +386,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    # Required on Windows: worker processes re-import this module.
+    multiprocessing.freeze_support()
     main()
